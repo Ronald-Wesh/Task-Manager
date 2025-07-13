@@ -1,12 +1,31 @@
-# React + Vite
+#  Task Manager - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task manager built using React, Tailwind CSS, and the JSONPlaceholder API.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add, delete, and complete tasks (localStorage)
+- Filter tasks (All, Active, Completed)
+- Fetch tasks from public API
+- Search and paginate API results
+- Dark/Light mode toggle
+- Responsive layout with Tailwind CSS
+
+## 🔧 Tech Stack
+
+- React
+- Tailwind CSS
+- JSONPlaceholder API
+- Vite
+- Axios
+- Git & GitHub
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Ronald-Wesh/Task-Manager.git
+cd Task-Manager
